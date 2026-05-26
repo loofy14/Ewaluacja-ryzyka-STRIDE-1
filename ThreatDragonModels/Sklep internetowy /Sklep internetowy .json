@@ -25,7 +25,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Internet",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -33,28 +33,28 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Internet"
             ],
-            "id": "d83f76de-3795-4a1c-8934-a77ea893dc06",
+            "id": "cf6ef7fb-d529-4ed3-9213-5b91100bdec9",
             "source": {
-              "x": 110,
-              "y": 80
+              "x": 420,
+              "y": -10
             },
             "target": {
-              "x": 200,
-              "y": 150
+              "x": 410,
+              "y": 660
             },
             "vertices": [
               {
-                "x": 160,
-                "y": 120
+                "x": 420,
+                "y": 620
               }
             ]
           },
           {
             "position": {
-              "x": 160,
-              "y": 200
+              "x": 210,
+              "y": 240
             },
             "size": {
               "width": 112.5,
@@ -72,6 +72,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -155,7 +156,6 @@
               ]
             },
             "id": "65157066-2847-4c62-85ae-8bcfe69ee130",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Użytkownik",
@@ -170,8 +170,8 @@
           },
           {
             "position": {
-              "x": 350,
-              "y": 320
+              "x": 530,
+              "y": 330
             },
             "size": {
               "width": 200,
@@ -189,6 +189,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -272,7 +273,6 @@
               ]
             },
             "id": "d9eeab7f-ec2e-4ffa-81e9-6b12c7bddf95",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Aplikacja backend",
@@ -290,8 +290,8 @@
           },
           {
             "position": {
-              "x": 621,
-              "y": 200
+              "x": 790,
+              "y": 250
             },
             "size": {
               "width": 120,
@@ -312,6 +312,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -395,7 +396,6 @@
               ]
             },
             "id": "7027b432-5487-42f7-9e89-aefa7f205a16",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "baza danych",
@@ -414,8 +414,8 @@
           },
           {
             "position": {
-              "x": 340,
-              "y": 29.99999999999997
+              "x": 520,
+              "y": 109.99999999999997
             },
             "size": {
               "width": 220,
@@ -433,6 +433,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -516,7 +517,6 @@
               ]
             },
             "id": "423cf79d-23b9-45f9-a3a6-8fcb65d7d07c",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Aplikacja frontend",

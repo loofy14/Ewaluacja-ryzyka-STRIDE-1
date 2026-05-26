@@ -552,7 +552,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow to backend",
+              "name": "API to backend",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -566,7 +566,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow to backend"
+              "API to backend"
             ],
             "id": "e54d5d1e-ab81-4615-9170-8ba919efe6d0",
             "source": {
